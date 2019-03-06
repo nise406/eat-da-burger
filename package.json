@@ -1,0 +1,28 @@
+{
+  "name": "eat-da-burger",
+  "version": "1.0.0",
+  "description": "eat-da-burger",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nise406/eat-da-burger.git"
+  },
+  "author": "nise406",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nise406/eat-da-burger.git"
+  },
+  "homepage": "https://github.com/nise406/eat-da-burger.git",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.2",
+    "handlebars": "^4.1.0",
+    "method-override": "^2.3.10",
+    "mysql": "^2.13.0",
+    "sequelize": "^4.43.0"
+  }
+}
