@@ -6,6 +6,6 @@ Description: Creating a burger logger with MySQL, Node, Express, Handlebars and 
 
 Usage
 Eat-Da-Burger! is a restaurant app that lets users input the names of burgers they'd like to eat.
-Whenever a user submits a burger's name, your app will display the burger on the left side of the page -- waiting to be devoured.
+Whenever a user submits a burger's name, your app will display the burger on the middle of the page -- waiting to be devoured.
 Each burger in the waiting area. When the user clicks on the hamburger button they just submitted, the burger will move to the botton of the page.
 Your app will store every burger in a database, whether devoured or not.
