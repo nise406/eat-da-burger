@@ -6,10 +6,10 @@ var app = express();
 
 app.use(express.static(process.cwd() + '/public'));
 
-app.use(bodyParser.urlencoded({
-	extended: false
+app.use(express.urlencoded({ extended: true }));
+app.use(express.json());
 
-}));
+
 
 app.use(methodOverride('_method'));
 
